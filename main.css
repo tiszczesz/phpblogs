@@ -1,0 +1,41 @@
+input{
+    margin: 10px;
+}
+
+table.users{
+    margin: 20px;
+    background-color: #ccff99;
+    border: solid thin black;
+    border-collapse: collapse;
+}
+table.users th{
+    background-color: #336600;
+    color: #99ff99;
+    border: solid thin #99ff99;
+    padding: 10px;
+}
+table.users td{
+    border: solid thin #666666;
+    padding: 10px;
+}
+table.users td a{
+    margin: -10px;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+table.users td a:hover{
+    background-color: #336600;
+    color: #99ff99;
+}
+label.info{
+    display: inline-block;
+    //margin: 5px;
+    width: 200px;
+    text-align: right;
+    padding: 5px;
+}
+
+
